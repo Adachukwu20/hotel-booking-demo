@@ -21,7 +21,7 @@ Interactive hotel booking website built with HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
 
-(Deployment link coming soon)
+https://hotel-booking-demo-opal.vercel.app
 
 ---
 
