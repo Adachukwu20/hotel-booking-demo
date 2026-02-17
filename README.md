@@ -1,28 +1,28 @@
 # 🏨 Grand Horizon Hotel
 
-Luxury hotel booking website built with HTML, CSS, and JavaScript.
+Interactive hotel booking website built with HTML, CSS, and JavaScript.
 
 ## ✨ Features
 
-- Modern dark luxury UI (Black & Gold theme)
-- Smooth scrolling navigation
-- Sticky header
+- Luxury dark UI (Black & Gold theme)
+- Sticky navigation bar
+- Smooth scrolling
 - Scroll reveal animations
 - Room hover effects
-- Interactive booking form validation
-- Success confirmation modal popup
+- Interactive booking form
+- Success confirmation modal
 - Fully responsive design
 
 ## 🛠 Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript
 
 ## 🚀 Live Demo
 
-[View Live Site](https://your-vercel-link.vercel.app)
+(Deployment link coming soon)
 
 ---
 
-This project demonstrates modern frontend development skills and interactive UI design suitable for real-world business websites.
+This project demonstrates modern frontend development and interactive UI design suitable for business websites.
