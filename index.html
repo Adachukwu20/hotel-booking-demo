@@ -3,41 +3,88 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Golden Spoon Restaurant</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
+<title>Grand Horizon Hotel</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
 <body>
 
 <header>
-  <h2>Golden Spoon</h2>
+    <h2>Grand Horizon</h2>
+    <nav>
+        <a href="#rooms">Rooms</a>
+        <a href="#about">About</a>
+        <a href="#booking">Book Now</a>
+    </nav>
 </header>
 
 <section class="hero">
-  <h1>Delicious Food. Cozy Atmosphere.</h1>
-  <p>Experience fine dining</p>
-  <a href="#contact" class="btn">Reserve Table</a>
+    <div class="hero-content">
+        <h1>Experience Luxury Redefined</h1>
+        <p>Elegant rooms. Premium comfort. Unforgettable stays.</p>
+        <a href="#booking" class="btn">Book Your Stay</a>
+    </div>
 </section>
 
-<section class="section">
-  <h2>Popular Dishes</h2>
-  <div class="cards">
-    <div class="card">Grilled Steak</div>
-    <div class="card">Italian Pasta</div>
-    <div class="card">Fresh Seafood</div>
-  </div>
+<section id="rooms" class="rooms reveal">
+    <h2>Our Rooms</h2>
+    <div class="room-container">
+        <div class="room-box">
+            <h3>Deluxe Room</h3>
+            <p>Spacious comfort with city view and king-size bed.</p>
+        </div>
+
+        <div class="room-box">
+            <h3>Executive Suite</h3>
+            <p>Luxury suite with lounge area and premium service.</p>
+        </div>
+
+        <div class="room-box">
+            <h3>Presidential Suite</h3>
+            <p>Ultimate elegance with private dining and skyline view.</p>
+        </div>
+    </div>
 </section>
 
-<section id="contact" class="section">
-  <h2>Location</h2>
-  <p>Downtown Dubai</p>
-  <p>Call: +971 55 000 0000</p>
+<section id="about" class="about reveal">
+    <h2>About Us</h2>
+    <p>
+        Located in the heart of the city, Grand Horizon Hotel offers a refined luxury
+        experience designed for comfort, elegance, and unforgettable moments.
+    </p>
 </section>
+
+<section id="booking" class="booking reveal">
+    <h2>Book Your Stay</h2>
+
+    <form id="bookingForm">
+        <input type="text" id="name" placeholder="Full Name">
+        <input type="email" id="email" placeholder="Email Address">
+        <input type="date" id="checkin">
+        <select id="room">
+            <option value="">Select Room Type</option>
+            <option>Deluxe Room</option>
+            <option>Executive Suite</option>
+            <option>Presidential Suite</option>
+        </select>
+        <button type="submit">Reserve Now</button>
+    </form>
+</section>
+
+<div class="modal" id="successModal">
+    <div class="modal-content">
+        <h3>Booking Confirmed</h3>
+        <p>Thank you for choosing Grand Horizon Hotel.</p>
+        <button onclick="closeModal()">Close</button>
+    </div>
+</div>
 
 <footer>
-  <p>© 2026 Golden Spoon Restaurant</p>
+    <p>© 2026 Grand Horizon Hotel | Luxury Experience</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
